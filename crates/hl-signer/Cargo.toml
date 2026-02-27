@@ -1,0 +1,21 @@
+[package]
+name = "hl-signer"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "EIP-712 signing for Hyperliquid L1 order actions"
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+ethers.workspace = true
+hex.workspace = true
+sha2.workspace = true
+hmac.workspace = true
+tracing.workspace = true
+rust_decimal.workspace = true
+chrono.workspace = true

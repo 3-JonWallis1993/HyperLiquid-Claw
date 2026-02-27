@@ -1,0 +1,23 @@
+[package]
+name = "hl-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Hyperliquid L1 core client — market data, order execution, WebSocket feeds"
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+reqwest.workspace = true
+tracing.workspace = true
+rust_decimal.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+hl-signer = { path = "../hl-signer" }
+
+[dev-dependencies]
+tokio-test = "0.4"

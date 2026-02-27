@@ -1,0 +1,16 @@
+[package]
+name = "hl-risk"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Position sizing, margin calculations and hedge scoring for HyperLiquid-Claw"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+rust_decimal.workspace = true
+tracing.workspace = true
+hl-core = { path = "../hl-core" }
